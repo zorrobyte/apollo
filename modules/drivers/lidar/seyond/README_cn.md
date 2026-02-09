@@ -28,10 +28,10 @@ mainboard -d /apollo/modules/drivers/lidar/seyond/dag/seyond.dag
 | :--------:         | :---------:  | :---------:   |
 | device_ip          | 172.168.1.10 | 雷达 ip   |
 | port               | 8010         | tcp 端口   |
-| udp_port           | 8010         | udp端口，若<0, 使用tcp传输   |
+| udp_port           | 8010         | udp端口   |
 | reflectance_mode   | true         | false:强度模式 true:反射模式   |
 | multiple_return    | 1            | 回波模式   |
-| coordinate_mode    | 3            | 坐标转换模式, 0: 雷达默认配置, 3:WGS-84   |
+| coordinate_mode    | 3            | 坐标转换模式, 0: 雷达原始坐标系, 3:右手坐标系   |
 | max_range          | 2000.0       | 最大距离限制 (单位:m)   |
 | min_range          | 0.4          | 最小距离限制 (单位:m)   |
 | log_level          | "info"       | 日志等级限制 (info warn error)    |
