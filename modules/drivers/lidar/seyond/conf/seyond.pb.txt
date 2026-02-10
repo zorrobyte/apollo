@@ -4,7 +4,7 @@ config_base {
   frame_id: "seyond"
 
   # sample ONLINE_LIDAR, RAW_PACKET
-  source_type: RAW_PACKET
+  source_type: ONLINE_LIDAR
 }
 
 device_ip: "172.168.1.10"
